@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>AlluraGeek</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-barra" src="images/header.svg" alt="Logotipo del encabezado">
+    </header>
+    <main class="main-container">
+        <section class="section-Mis-Productos">
+            <h1 class="mis-Productos">Mis Productos:</h1>
+            <div data-product class="products-container">
+                <!-- Productos se cargarán aquí -->
+
+              
+                
+            </div>
+        </section>
+        <section class="section-Agregar-Productos">
+            <h1 class="agregar-Productos">Agregar producto:</h1>
+            <form class="form-container" data-form>
+                <input id="product-name" name="name" class="form-container__input" data-name placeholder="nombre..." type="text" required>
+                <input id="product-price" name="price" class="form-container__input" data-price placeholder="precio..." type="number" required>
+                <input id="product-image" name="image" class="form-container__input" data-image placeholder="imagen..." type="url" required>
+                <div class="button-container">
+                    <button type="submit" class="button-submit_enviar" data-submit>Enviar</button>
+                    <button type="reset" class="button-submit_limpiar" data-clear>Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-barra"></div>
+            <div class="footer-text">
+                <p>Desarrollado por Leonardo Morales</p>
+                <p>Allura LATAM 2024</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+
+</html>

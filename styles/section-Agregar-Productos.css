@@ -1,0 +1,115 @@
+/* Estilos para la sección "Agregar Productos" */
+.section-Agregar-Productos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 35%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.agregar-Productos {
+    width: 392px;
+    height: 48px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 3%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.form-container__input {
+    background: #FFFFFF;
+    border: 3px solid #03318C;
+    border-radius: 30px;
+    padding: 2%;
+    font-family: 'IBM Plex Mono';
+    align-self: stretch;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-container__input::placeholder {
+    color: #03318C;
+    position: absolute;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.8px;
+    border: 3px;
+}
+
+.button-container {
+    justify-content: space-around;
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.button-submit_enviar {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 188px;
+    height: 55px;
+    background: #03318C;
+    border-radius: 15px;
+}
+
+.button-submit_limpiar {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #03318C;
+    width: 188px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+/* Dispositivos móviles*/
+
+@media (max-width: 768px) {
+    .section-Agregar-Productos {
+        width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+        margin: 0;
+        padding: 10px;
+    }
+
+    .form-container {
+        gap: 20px; /* Reducir el espacio entre elementos */
+    }
+
+    .button-container {
+        padding: 20px; /* Reducir el espacio entre botones */
+    }
+
+    .button-submit_enviar,
+    .button-submit_limpiar {
+        width: 100%; /* Ocupar todo el ancho disponible */
+    }
+}

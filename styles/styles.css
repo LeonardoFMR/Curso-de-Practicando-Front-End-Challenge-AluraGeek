@@ -1,0 +1,22 @@
+
+@import url("header.css");
+
+@import url("main-container.css");
+
+@import url("footer.css");
+
+@import url("section-Mis-Productos.css");
+
+@import url("section-Agregar-Productos.css");
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+

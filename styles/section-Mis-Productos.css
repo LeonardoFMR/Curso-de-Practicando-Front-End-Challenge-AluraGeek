@@ -1,0 +1,128 @@
+/* Estilos para la sección "Mis Productos" */
+.section-Mis-Productos {
+    width: 60%;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mis-Productos {
+    width: 392px;
+    height: 48px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 3%;
+}
+
+.products-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las tarjetas */
+    max-width: 90%; /* Asegura que las tarjetas no se desborden */
+}
+
+.products-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.card {
+    background-color: #5D04D9;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centramos el contenido */
+    justify-content: space-between; /* Espacio entre el contenido */
+    gap: 10px;
+    width: 196px; /* Tamaño fijo */
+    height: 258px; /* Tamaño fijo */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+    flex: 0 0 196px; /* Tamaño fijo para evitar deformación */
+    margin-bottom: 10px; /* Espacio entre filas */
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container--info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center; /* Centramos el texto */
+    width: 100%; /* Ajuste al ancho del contenedor */
+}
+
+.card-container--value {
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: left;
+    gap: 20px;
+    display: flex;
+    padding: 10px;
+    width: 100%; /* Ajuste al ancho del contenedor */
+}
+
+.card-container--info p {
+    margin: 0;
+}
+
+.card-container--info .product-name {
+    font-size: 16px;
+    font-family: 'IBM Plex Mono';
+    text-align: center; /* Centramos el texto */
+}
+
+.card-container--info .product-price {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono';
+    text-align: center; /* Centramos el texto */
+}
+
+
+/* DISPOSITIVOS MÓVILES: */
+@media (max-width: 768px) {
+    .section-Mis-Productos {
+        width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+        margin: 0;
+        padding: 10px;
+    }
+
+    .products-container {
+        justify-content: center; /* Alinear productos a la izquierda en dispositivos móviles */
+        max-width: 90%; /* Asegura que las tarjetas no se desborden */
+
+    }
+
+    .card {
+        margin-bottom: 10px; /* Espaciado entre tarjetas en dispositivos móviles */
+    }
+
+
+   
+}
