@@ -1,40 +1,22 @@
 {
   "products": [
     {
-      "id": "a2f8",
-      "name": "Spiter man",
+      "id": "0506",
+      "name": "Dart Vader",
       "price": 22,
+      "image": "https://m.media-amazon.com/images/I/61OZ0BqOcqL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "4382",
+      "name": "Spider Man",
+      "price": 5666,
       "image": "https://m.media-amazon.com/images/I/714EBh9Fh7L._AC_SL1500_.jpg"
     },
     {
-      "id": "7e3c",
-      "name": "Stormtrooper",
-      "price": 2,
+      "id": "814a",
+      "name": "Batman",
+      "price": 666,
       "image": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp"
-    },
-    {
-      "id": "c378",
-      "name": "Dart Vader",
-      "price": 244,
-      "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
-    },
-    {
-      "id": "95b9",
-      "name": "Spider Man",
-      "price": 1000,
-      "image": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp"
-    },
-    {
-      "id": "bc3c",
-      "name": "Spiter man",
-      "price": 55,
-      "image": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp"
-    },
-    {
-      "id": "d577",
-      "name": "Dart Vader",
-      "price": 3,
-      "image": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp"
     }
   ]
 }
